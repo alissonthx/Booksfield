@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 27-Nov-2021 às 22:33
+-- Tempo de geração: 29-Nov-2021 às 14:04
 -- Versão do servidor: 10.4.21-MariaDB
 -- versão do PHP: 8.0.12
 
@@ -42,7 +42,6 @@ CREATE TABLE `emprestimos` (
 --
 
 INSERT INTO `emprestimos` (`id`, `id_livro`, `created`, `modified`, `id_user`, `date_start`, `date_end`) VALUES
-(10, 1, '2021-11-27 18:37:37', '2021-11-27 18:37:37', 16, '2021-11-27 18:37:37', '2021-12-04 03:00:00'),
 (11, 2, '2021-11-27 19:00:56', '2021-11-27 19:00:56', 17, '2021-11-27 19:00:56', '2021-12-04 03:00:00');
 
 -- --------------------------------------------------------
@@ -90,8 +89,8 @@ CREATE TABLE `usuarios` (
 --
 
 INSERT INTO `usuarios` (`id`, `nome`, `email`, `cpf`, `dateNac`, `created`, `modified`, `passwd`) VALUES
-(16, 'Marcos Ivan', 'marcos@admin.com', '888888888', '1997-01-01 00:00:00', '2021-11-27 15:24:11', '2021-11-27 15:24:11', 'administrador'),
-(17, 'Fulano Teste', 'fulano@admin.com', '999999999', '1992-01-14 00:00:00', '2021-11-27 16:00:29', '2021-11-27 16:00:29', 'fulanoteste');
+(17, 'Fulano Teste', 'fulano@admin.com', '999999999', '1992-01-14 00:00:00', '2021-11-27 16:00:29', '2021-11-27 16:00:29', 'fulanoteste'),
+(18, 'Álisson Marques', 'alisson@admin.com', '999999999', '1992-01-14 00:00:00', '2021-11-29 10:02:53', '2021-11-29 10:02:53', 'administrador');
 
 --
 -- Índices para tabelas despejadas
@@ -137,7 +136,7 @@ ALTER TABLE `livros`
 -- AUTO_INCREMENT de tabela `usuarios`
 --
 ALTER TABLE `usuarios`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
 
 --
 -- Restrições para despejos de tabelas
