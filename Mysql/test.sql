@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 29-Nov-2021 às 14:04
+-- Tempo de geração: 29-Nov-2021 às 16:58
 -- Versão do servidor: 10.4.21-MariaDB
 -- versão do PHP: 8.0.12
 
@@ -42,7 +42,9 @@ CREATE TABLE `emprestimos` (
 --
 
 INSERT INTO `emprestimos` (`id`, `id_livro`, `created`, `modified`, `id_user`, `date_start`, `date_end`) VALUES
-(11, 2, '2021-11-27 19:00:56', '2021-11-27 19:00:56', 17, '2021-11-27 19:00:56', '2021-12-04 03:00:00');
+(11, 2, '2021-11-27 19:00:56', '2021-11-27 19:00:56', 17, '2021-11-27 19:00:56', '2021-12-04 03:00:00'),
+(18, 3, '2021-11-29 15:55:42', '2021-11-29 15:55:42', 18, '2021-11-29 15:55:42', '2021-12-06 03:00:00'),
+(19, 2, '2021-11-29 15:55:55', '2021-11-29 15:55:55', 18, '2021-11-29 15:55:55', '2021-12-06 03:00:00');
 
 -- --------------------------------------------------------
 
@@ -65,7 +67,7 @@ CREATE TABLE `livros` (
 INSERT INTO `livros` (`id`, `titulo`, `descricao`, `created`, `modified`) VALUES
 (1, 'Lovecraft', 'Livro do lovecraft', '2021-11-26 17:03:50', '2021-11-26 17:03:50'),
 (2, 'O Corvo', 'Livro o Corvo.', '2021-11-26 17:09:41', '2021-11-26 17:09:41'),
-(14, 'O Homem de Giz', 'Livro sobre o Homem de Giz', '2021-11-26 17:10:34', '2021-11-26 17:10:34');
+(3, 'O Homem de Giz', 'Livro sobre o Homem de Giz', '2021-11-26 17:10:34', '2021-11-29 12:54:25');
 
 -- --------------------------------------------------------
 
@@ -124,7 +126,7 @@ ALTER TABLE `usuarios`
 -- AUTO_INCREMENT de tabela `emprestimos`
 --
 ALTER TABLE `emprestimos`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
 
 --
 -- AUTO_INCREMENT de tabela `livros`
