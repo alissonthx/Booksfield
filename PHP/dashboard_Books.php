@@ -29,7 +29,7 @@ session_start(); ?>
             </div>
             <div class="flex-row">
                 <div class="card text-center card-book mt-1" style="width: 18rem;" height="40rem;">
-                    <img src="../img/livro1.png" class="card-img-top img-book" alt="Livro 1">
+                    <img src="https://ibb.co/CBK64fy" class="card-img-top img-book" alt="Livro 1">
                     <div class="card-body">
                         <h5 class="card-title">Lovecraft</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
@@ -39,7 +39,7 @@ session_start(); ?>
                     </div>
                 </div>
                 <div class="card text-center card-book mt-1" style="width: 18rem;">
-                    <img src="../img/livro2.png" class="card-img-top img-book" alt=" livro 2">
+                    <img src="https://ibb.co/VgDkPSm" class="card-img-top img-book" alt=" livro 2">
                     <div class="card-body">
                         <h5 class="card-title">O Corvo</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
@@ -49,7 +49,7 @@ session_start(); ?>
                     </div>
                 </div>
                 <div class="card text-center card-book mt-1" style="width: 18rem;">
-                    <img src="../img/livro3.png" class="card-img-top img-book" alt="livro 3">
+                    <img src="https://ibb.co/gSKMy5n" class="card-img-top img-book" alt="livro 3">
                     <div class="card-body">
                         <h5 class="card-title">O Homem de Giz</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
