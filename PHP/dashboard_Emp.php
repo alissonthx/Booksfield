@@ -68,7 +68,9 @@ if (!$emprestimos) {
                                         strtotime($emp["date_end"])
                                     ) ?></td>
                                     <td>
-                                        <a href="process_Dev.php">Devolver</a>
+                                        <a href="process_Dev.php?id=<?= $emp[
+                                            "id_emp"
+                                        ] ?>">Devolver</a>
                                     </td>
                                 </tr>
                             <?php } ?>
