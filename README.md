@@ -17,5 +17,5 @@ MysQl - DB
  </li>
 <u>
 
-# Protótipo Frontend, feito no figma:
+# Protótipo frontend, feito no figma:
 <a href="https://www.figma.com/file/3nQzru8Dm2sonnUOXk0AIT/Booksfield">Clique aqui</a>
