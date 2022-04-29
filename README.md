@@ -18,5 +18,5 @@ MysQl - DB
 <u>
 
 <h2> Protótipo frontend, feito com figma:
-<a href="https://www.figma.com/file/3nQzru8Dm2sonnUOXk0AIT/Booksfield">Clique aqui</a>
+<a href="https://www.figma.com/community/file/1045339762131432119">Clique aqui</a>
 </h2>
