@@ -48,6 +48,7 @@ if (!$emprestimos) {
                                 <th>Usuário</th>
                                 <th>Data de Empréstimo</th>
                                 <th>Data de Devolução</th>
+                                <th>Ações</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -66,6 +67,11 @@ if (!$emprestimos) {
                                         "d/m/Y",
                                         strtotime($emp["date_end"])
                                     ) ?></td>
+                                    <td>
+                                        <a href="process_Dev.php?id=<?= $emp[
+                                            "id_emp"
+                                        ] ?>">Devolver</a>
+                                    </td>
                                 </tr>
                             <?php } ?>
                         </tbody>
